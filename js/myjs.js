@@ -1,3 +1,5 @@
+//Create a smooth scroll effect when navigate using # tag
+//using jquery 2.1.3
 $(document).ready(function(){
         $('a[href^="#"]').on('click',function (e) {
             e.preventDefault();
@@ -14,11 +16,14 @@ $(document).ready(function(){
 
 
 
-
+//Add a hover effect for the table
+//Column will be highlighted when mouseover
+//Hover color is defined in html4tohtml5refactor.css under td.hovered
 function addColumnHover(table) {
      var HOVER_CLASS = 'hovered';
      var hovered;
 
+     //toggle 'hovered' class to highlight the cells
      table.addEventListener('mouseover', function (e) {
          if (e.target.tagName.toLowerCase() == 'td') {
              var index = e.target.cellIndex;
@@ -45,6 +50,7 @@ function addColumnHover(table) {
          }
      }, true);
 
+     //toggle 'hovered' class to disable the highlight
      table.addEventListener('mouseout', function (e) {
          hovered && hovered.forEach(function (cell) {
              cell.classList.remove(HOVER_CLASS);

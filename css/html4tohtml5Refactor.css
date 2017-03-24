@@ -22,7 +22,8 @@ p {
 #nav > li {
     display: inline;
 }
-@media screen and (min-width: 600px){
+
+@media screen and (min-width: 768px){
     ul.navigation li {float: left;}
 
 
@@ -60,7 +61,6 @@ section{
     margin-right:auto;
     height:300px;
 
-
 }
 
 
@@ -91,7 +91,8 @@ section{
     margin-right:20%;
 }
 
-@media screen and (max-width: 600px){
+//responsive design for mobile devices
+@media screen and (max-width: 768px){
     ul.navigation li {float: none;}
     #nav > li:nth-child(1) > a{background: #4CAF50;}
     table {

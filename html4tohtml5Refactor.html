@@ -13,85 +13,93 @@
 </head>
 
 <body>
-  <h1 class='subH' id='headtitle'>Heading</h1>
-  <section id='navigation'>
+<h1 class='subH' id='headtitle'>Heading</h1>
+<section id='navigation'>
     <ul class='navigation' id='nav'>
-      <li>
-        <a href='#paragraph'>
-          <span class='textnav'>Paragraph</span>
-          <span class='carat'>></span>
-        </a>
-      </li>
-      <li>
-        <a href='#table'>
-          <span class='textnav'>Table</span>
-          <span class='carat'>></span>
-        </a>
-      </li>
-      <li>
-        <a href='#image'>
-          <span class='textnav'>Image</span>
-          <span class='carat'>></span>
-        </a>
-      </li>
+        <li>
+            <a href='#paragraph'>
+                <span class='textnav'>Paragraph</span>
+                <span class='carat'>></span>
+            </a>
+        </li>
+        <li>
+            <a href='#table'>
+                <span class='textnav'>Table</span>
+                <span class='carat'>></span>
+            </a>
+        </li>
+        <li>
+            <a href='#image'>
+                <span class='textnav'>Image</span>
+                <span class='carat'>></span>
+            </a>
+        </li>
     </ul>
-  </section>
-    <section class="container" id="paragraph">
-  <p>
-    HTML 4.0 is becoming the standard. As of the writing of this tutorial, Microsoft Explorer version 5.0 is out with full HTML 4.0 support.
-    <a class='hyperlink' href='#'>Netscape Navigator 5.0</a>
-    is not far behind, and soon the commands below will start to become mainstream.
-  </p>
-  <p>
-    Here's a quick look at how HTML 4.01 affects tables. You are already familiar with some of the tags and attributes. For example,
-    <a class='hyperlink'href='#'>
-      <font color='blue'>BORDERCOLOR has been</font>
-    </a>
-    in use for a while as a proprietary Internet Explorer tag. It has just now been written into the HTML 4.01 code.
-  </p>
-  <p>
-    I have offered as many examples as possible. Many will simply not work because you don't yet have the browser version that supports it. Don't worry, neither did I when
-    <a class='hyperlink' href='#' id='blue'>I wrote this tutorial.</a>
-    Hopefully you'll be able to visit this tutorial in the future to test what your new browser will and will not do.
-    I am only going to hit the tags and attributes new through HTML 4.01 in this tutorial. If you'd like to get into the basics of table creation, start with my table tutorials.
-  </p>
-        </section>
-        <section class="container" id='table'>
+</section>
+<section class="container" id="paragraph">
+    <p>
+        HTML 4.0 is becoming the standard. As of the writing of this tutorial, Microsoft Explorer version 5.0 is out
+        with full HTML 4.0 support.
+        <a class='hyperlink' href='#'>Netscape Navigator 5.0</a>
+        is not far behind, and soon the commands below will start to become mainstream.
+    </p>
+
+    <p>
+        Here's a quick look at how HTML 4.01 affects tables. You are already familiar with some of the tags and
+        attributes. For example,
+        <a class='hyperlink' href='#'>
+            <font color='blue'>BORDERCOLOR has been</font>
+        </a>
+        in use for a while as a proprietary Internet Explorer tag. It has just now been written into the HTML 4.01 code.
+    </p>
+
+    <p>
+        I have offered as many examples as possible. Many will simply not work because you don't yet have the browser
+        version that supports it. Don't worry, neither did I when
+        <a class='hyperlink' href='#' id='blue'>I wrote this tutorial.</a>
+        Hopefully you'll be able to visit this tutorial in the future to test what your new browser will and will not
+        do.
+        I am only going to hit the tags and attributes new through HTML 4.01 in this tutorial. If you'd like to get into
+        the basics of table creation, start with my table tutorials.
+    </p>
+</section>
+<section class="container" id='table'>
     <table id="myTable" border="3" width="500">
         <colgroup>
             <col>
             <col>
             <col>
         </colgroup>
-      <tbody>
+        <tbody>
         <tr>
-          <td>
-            <span style='font-weight: bold !important'>Heading 1</span>
-          </td>
-          <td>Heading 2</td>
-          <td>Heading 3</td>
+            <td>
+                <span style='font-weight: bold !important'>Heading 1</span>
+            </td>
+            <td>Heading 2</td>
+            <td>Heading 3</td>
         </tr>
         <tr>
-          <td>Cell Data</td>
-          <td>Cell Data</td>
-          <td>Cell Data</td>
+            <td>Cell Data</td>
+            <td>Cell Data</td>
+            <td>Cell Data</td>
         </tr>
         <td class='high'>Cell Data</td>
         <td>Cell Data</td>
         <td>Cell Data</td>
 
-      <tr>
-        <td>Cell Data</td>
-        <td>Cell Data</td>
-        <td align='right'>Cell Data</td>
-      </tr>
-      </tbody>
+        <tr>
+            <td>Cell Data</td>
+            <td>Cell Data</td>
+            <td align='right'>Cell Data</td>
+        </tr>
+        </tbody>
     </table>
-  </section>
+</section>
 
-  <section class="container" id='image'>
-      <img src="http://stylonica.com/wp-content/uploads/2014/03/cats-16140154-1920-1080.jpg" onerror="this.src='img/image-not-found.jpg'">
-  </section>
+<section class="container" id='image'>
+    <img src="http://stylonica.com/wp-content/uploads/2014/03/cats-16140154-1920-1080.jpg"
+         onerror="this.src='img/image-not-found.jpg'">
+</section>
 </body>
 
 </html>
